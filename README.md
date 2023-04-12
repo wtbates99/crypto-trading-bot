@@ -35,6 +35,6 @@ The overall workflow to optimize machine learning to make and use price predicti
   * In the additional_data() function, you are able to grab other data you want used in the model
   
 #### Changing model parameters or type
-  * I have used mainly scikit-learn models for this project, although some test Tensorflow files are located in hte "TF" folder
+  * I have used mainly scikit-learn models for this project, although some test Tensorflow files are located in the "TF" folder
   * I have used mainly regression models, but you can add a classifier to first check if the future price is higher than the current, then use a regression model to find the predicted price
   * I advise visiting the [scikit-learn documentation pages](https://scikit-learn.org/stable/supervised_learning.html) for more information on different models and parameters
